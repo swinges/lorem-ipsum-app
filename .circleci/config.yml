@@ -19,7 +19,7 @@ jobs:
           command: docker save -o image.tar $IMAGE_NAME
       - persist_to_workspace:
         root: .
-        pahts:
+        paths:
           - ./image.tar
   publish-latest:
     executor: docker-publisher
