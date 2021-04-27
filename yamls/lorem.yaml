@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lorem-ipsum-app
+  labels:
+    app: lorem
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lorem
+  template:
+    metadata:
+      labels:
+        app: lorem
+    spec:
+      containers:
+        - name: lorem
+          image: scottlifts/lorem-ipsum-app:latest
+          ports:
+            - containerPort: 80
