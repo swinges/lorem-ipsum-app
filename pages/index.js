@@ -23,7 +23,7 @@ export default class extends Page {
               <br className="v-block d-lg-none"/> Starter Project
             </h1>
             <p className="lead mb-5">
-              A reference and template for React projects and Scott is amazing! test2
+              A reference and template for React projects and Scott is amazing! Push 6/9/2021
             </p>
             <p className="text-right">
               <a href="https://github.com/iaincollins/nextjs-starter" className="btn btn-outline-light btn-lg"><span className="icon ion-logo-github mr-2"/> Download from GitHub</a>
