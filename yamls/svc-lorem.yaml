@@ -8,5 +8,5 @@ spec:
   selector:
     app: lorem
   ports:
-    - port: 4000
+    - port: 5000
       targetPort: 80
